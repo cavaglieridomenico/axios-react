@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import getProducts from "../axios/custom";
 
-const randomUserUrl = "https://randomuser.me/api";
-
 const CustomInstance = () => {
   const fetchData = async () => {
     const response = await getProducts("/react-store-products");
